@@ -1,13 +1,13 @@
 terraform {
 
-  cloud {
+  /*cloud {
     organization = "jincson"
 
     workspaces {
       name = "learn-terraform-cloud"
     }
   }
-
+*/
   required_providers {
     aws = {
       source  = "hashicorp/aws"
